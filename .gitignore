@@ -7,3 +7,7 @@ venv/
 
 # Dados brutos grandes (NÃO versionar)
 data/raw/
+
+# Saídas geradas por execução (não versionar)
+data/processed/resultado_*.csv
+data/processed/comparacao_anomalias.csv
