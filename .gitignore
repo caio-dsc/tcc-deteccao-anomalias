@@ -11,3 +11,6 @@ data/raw/
 # Saídas geradas por execução (não versionar)
 data/processed/resultado_*.csv
 data/processed/comparacao_anomalias.csv
+
+# Resultados de experimentos (gerados em execução)
+results/
