@@ -3,6 +3,8 @@ cat > README.md <<'EOF'
 
 Protótipo (TCC) para detecção de anomalias em séries temporais de consumo diário de energia elétrica, utilizando métodos estatísticos interpretáveis em Python.
 
+**Acesso ao sistema:** https://tcc-deteccao-anomalias-cdsc.streamlit.app/
+
 ## Visão geral
 - Dataset base: *Individual Household Electric Power Consumption* (UCI).
 - Pré-processamento: agregação de medições em nível de minuto para consumo diário (kWh).

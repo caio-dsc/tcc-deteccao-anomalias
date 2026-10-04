@@ -84,6 +84,10 @@ with st.sidebar:
 
 
 # ------------------------- EXECUÇÃO -------------------------
+if not executar:
+    st.info("Configure os parâmetros na barra lateral e clique em Executar avaliação.")
+    st.stop()
+
 if executar:
     df = load_data()
 

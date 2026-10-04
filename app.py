@@ -96,6 +96,10 @@ c2.metric("Dias completos", int((view["data_quality"] == "complete").sum()))
 c3.metric("Dias parciais", int((view["data_quality"] == "partial").sum()))
 
 # ------------------------- ANÁLISE -------------------------
+if not analisar:
+    st.info("Selecione os parâmetros na barra lateral e clique em Analisar.")
+    st.stop()
+
 if analisar:
     if metodo == "Z-score em janela móvel":
         res = detect_zscore_rolling(view, window=window, threshold=limiar)
